@@ -1,0 +1,32 @@
+{
+  "name": "node-class11",
+  "version": "0.0.1",
+  "description": "class 11",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test-browser": "npx wdio run ./wdio.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SabrinaTasselli/node-class11.git"
+  },
+  "author": "Sabrina Tasselli",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SabrinaTasselli/node-class11/issues"
+  },
+  "homepage": "https://github.com/SabrinaTasselli/node-class11#readme",
+  "dependencies": {
+    "@wdio/cli": "^7.6.1",
+    "@wdio/sync": "^7.5.7",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@wdio/jasmine-framework": "^7.5.3",
+    "@wdio/local-runner": "^7.5.7",
+    "@wdio/spec-reporter": "^7.5.7",
+    "chromedriver": "^90.0.0",
+    "wdio-chromedriver-service": "^7.0.0"
+  }
+}
